@@ -115,6 +115,11 @@ jobs:
         working-directory: ./frontend
         run: npm install
 
+      - name: 设置应用图标
+        run: |
+          Copy-Item -Path "assets/icon.png" -Destination "build/appicon.png" -Force
+          Write-Host "✅ 图标设置完成"
+
       - name: 构建 Windows x64 版本
         env:
           GOARCH: amd64
@@ -182,6 +187,11 @@ jobs:
       - name: 安装前端依赖
         working-directory: ./frontend
         run: npm install
+
+      - name: 设置应用图标
+        run: |
+          cp assets/icon.png build/appicon.png
+          echo "✅ 图标设置完成"
 
       - name: 构建 macOS ${{ matrix.platform }} 版本
         env:

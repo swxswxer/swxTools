@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- <img src="./src/assets/icon.png" alt="MTools Logo" width="128" height="128"> -->
+<img src="./assets/icon.png" alt="DevBox Logo" width="128" height="128">
 
 # DevBox
  一款功能高度集成、界面精美的开发桌面工具集，集成多种开发常用工具：加密工具（MD5/Base64/国密SM3/URL编码）、格式化工具（JSON/XML）、文本比对工具、二维码生成等。操作便捷，为开发者提升工作效率。
