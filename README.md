@@ -5,7 +5,6 @@
 # DevBox
  一款功能高度集成、界面精美的开发桌面工具集，集成多种开发常用工具：加密工具（MD5/Base64/国密SM3/URL编码）、格式化工具（JSON/XML）、文本比对工具、二维码生成等。操作便捷，为开发者提升工作效率。
 
-<div align="center">
 
 <!-- 第一行：核心状态 - CI/版本/许可证/平台 -->
 [![Release](https://img.shields.io/github/v/release/swxswxer/Devbox?style=flat-square&logo=github&color=blue&label=Release)](https://github.com/swxswxer/Devbox/releases/latest)
